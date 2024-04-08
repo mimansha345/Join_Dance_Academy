@@ -55,9 +55,6 @@ Make sure you have the following software installed on your machine:
 
 Contributions are welcome! If you have any ideas for improvement or would like to report a bug, please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 

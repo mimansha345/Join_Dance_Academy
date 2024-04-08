@@ -1,0 +1,21 @@
+touch .gitignore
+
+git config --global user.name Mimansha
+
+git config --global user.email "mimanshashahi@gmail.com"
+
+git init
+
+git add .
+
+git commit -m "Initial Commit"
+
+git status # Just to see
+
+ssh-keygen -t ed25519 -C "mimanshashahi@gmail.com"
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMqW7OOHjcRDmXp0Xozsu2WJkbRyNmGyRuZzdLwF1NNR mimanshashahi@gmail.com #Add this key to your Github account
+
+git remote add origin <ssh url.git>
+
+git push origin master

@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts
+  script(src='../static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    
+    section#introSection 
+         div  Welcome to Mimansha's Dance Academy 
+         div.small  Eat sleep Dance Repeat 
+
+    section#missionSection 
+         h2 Our Mission
+         div.card
+             h3 Dance Perfection 
+             div.card-box 
+                div.card-img
+                    img(src="../static/dw_img1.jpg")
+                div.card-content 
+                    p This is the best dance academy of the universe.
+         div.card
+             h3 Dance the way you like.
+             div.card-box 
+                div.card-img
+                    img(src="../static/dw_img2.jpg")
+                div.card-content 
+                    p This is the best dance academy of the universe.
+         div.card
+             h3 Expert Teching.
+             div.card-box 
+                div.card-img
+                    img(src="../static/dw_img3.jpg")
+                div.card-content 
+                    p This is the best dance academy of the universe.   
+
+    section#sponsorsSection
+           h2 Our sponsors 
+           div#sponsors
+              img(src="../static/dw_microsoft.png", alt="Sponsor Image", class="spimage")
+              img(src="../static/dw_apple.png", alt="Sponsor Image", class="spimage")
+              img(src="../static/dw_hp.jpeg", alt="Sponsor Image", class="spimage")
+              img(src="../static/dw_skype.png", alt="Sponsor Image", class="spimage")

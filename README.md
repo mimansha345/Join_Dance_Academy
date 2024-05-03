@@ -1,4 +1,4 @@
-# Mimansha Dance Academy
+# Mimansha Dance Academy (MDA)
 
 Welcome to the Dance Academy Website! This web application is designed to provide a platform for dance enthusiasts to explore various dance classes, events, and services offered by our academy. The website is built using Pug for templating, CSS for styling, and Express.js along with MongoDB for backend functionality.
 
